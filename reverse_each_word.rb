@@ -5,6 +5,5 @@ words.collect do |element|
   element.reverse!
 end
 words.join
-array << words
 
 end
