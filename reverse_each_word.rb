@@ -3,7 +3,7 @@ array = []
 words = string.split
 words.collect do |element|
   element.reverse!
-element.join
 end
+element.join
 
 end
