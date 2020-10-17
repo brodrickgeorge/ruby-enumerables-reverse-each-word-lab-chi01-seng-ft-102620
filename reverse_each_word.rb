@@ -3,6 +3,6 @@ array = []
 words = string.split()
 words.collect do |element|
   element.reverse!
-end.join("")
+end.join(" ")
 
 end
