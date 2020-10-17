@@ -4,6 +4,6 @@ words = string.split
 words.collect do |element|
   element.reverse!
 end
-element.join
+words.join
 
 end
